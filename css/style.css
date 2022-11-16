@@ -10,6 +10,9 @@ body {
 
 :root {
     --color-primary:#f0f0f0;
+    --color-accent:#58565a;
+
+    --base-padding:1em 0.5em;
 
 }
 
@@ -54,7 +57,7 @@ p {
     background: black url(../images/Swiftcurrent\ Milky\ Way\ -\ Imgur.jpg) no-repeat fixed ;
     background-size: cover;
     color: var(--color-primary);
-    padding: 1em 0.3em;
+    padding: var(--base-padding);
 }
 
 .history-photo__par {
@@ -63,3 +66,17 @@ p {
     flex-wrap: wrap;
 }
 
+.word-etymology {
+    color: var(--color-accent);
+    margin: 1em 0.5em;
+    border: 1px solid var(--color-accent);
+    box-shadow: 3px 6px #58565a;
+}
+
+.early-history {
+    color: var(--color-primary);
+    background: rgb(78, 76, 76) url(../images/Finally\ convinced\ my\ dad\ to\ buy\ a\ smartphone.\ He\ keeps\ saying\ he\ loves\ the\ camera.\ He\ now\ sends\ me\ this.\ -\ Imgur.jpg) no-repeat fixed;
+    background-size: cover;
+    background-blend-mode:darken;
+    padding: var(--base-padding);
+}
