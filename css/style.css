@@ -2,4 +2,47 @@ body {
     margin: 0;
     padding: 0;
     border:none;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.25rem;
+}
+
+/* font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto Mono', monospace; */
+
+/* general rules */
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+p {
+    max-width: 70ch;
+    text-align: center;
+}
+
+/* classes */
+
+.photo-list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+.photo-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.photo-list a:hover,
+.photo-list a:focus {
+    border-bottom: 1px solid;
+}
+
+.history-photo {
+    background: 
 }
