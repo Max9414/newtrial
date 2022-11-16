@@ -6,6 +6,13 @@ body {
     font-size: 1.25rem;
 }
 
+/* var section */
+
+:root {
+    --color-primary:#f0f0f0;
+
+}
+
 /* font-family: 'Hind Madurai', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Roboto Mono', monospace; */
@@ -44,5 +51,15 @@ p {
 }
 
 .history-photo {
-    background: 
+    background: black url(../images/Swiftcurrent\ Milky\ Way\ -\ Imgur.jpg) no-repeat fixed ;
+    background-size: cover;
+    color: var(--color-primary);
+    padding: 1em 0.3em;
 }
+
+.history-photo__par {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
